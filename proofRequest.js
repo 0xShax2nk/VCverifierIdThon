@@ -9,7 +9,7 @@ const credentialSubject = {
   birthday: {
     // users must be born before this year
     // birthday is less than Jan 1, 2023
-    $lt: 20050101,
+    $lt: 20230101,
   },
 };
 

@@ -1,5 +1,10 @@
 const express = require("express");
 const { auth, resolver, loaders } = require("@iden3/js-iden3-auth");
+const {
+  Options,
+  getDocumentLoader,
+  DocumentLoader,
+} = require('@iden3/js-jsonld-merklization') ;
 const getRawBody = require("raw-body");
 const { Server } = require("socket.io");
 const cors = require("cors");
